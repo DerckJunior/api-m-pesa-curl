@@ -23,7 +23,7 @@ Para usar este pacote basta seguir o exemplo abaixo:
 ``` php
 
 Envie parametros atraves de um formulario para o arquivo c2b.php
-O arquivo c2b esta a espera de dois(2) parametros dp tipo POST
+O arquivo c2b esta a espera de dois(2) parametros d0 tipo POST
 Ex:
 	index.html -------> c2b.php
 
