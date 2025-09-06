@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API M-Pesa</title>
+</head>
+
+<body>
+    <!-- FORMULARIO SIMPLES -->
+    <h1>Formulario de pagamento</h1>
+
+    <form action="src/c2b.php" method="POST">
+
+        <p>
+            <label for="">Nome: </label>
+            <input type="text" name="nome" value="" placeholder="Digite o seu nome">
+        </p>
+
+        <p>
+            <label for="">Valor: </label>
+            <input type="number" name="valor" placeholder="Digite o valor">
+        </p>
+
+        <p>
+            <label for="">Numero: </label>
+            <input type="number" name="numero" value="" placeholder="Digite o seu numero">
+        </p>
+
+        <input type="submit" value="PAGAR">
+    </form>
+</body>
+
+</html>
