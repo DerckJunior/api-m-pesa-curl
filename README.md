@@ -1,6 +1,12 @@
 # API M-PESA
 Pacote de implentacao da API do M-Pesa simplificado em PHP usando curl
 
+## Instalacao
+Para instalar esta dependencia  usando o composer basta executar o comando a baixo:
+```shell
+	composer require derckjunior/api-m-pesa-curl
+```
+
 ## Conhecimentos necessarios
 Em primeiro lugar: Voce deve saber o basico PHP
 Em segundo lugar: Voce deve entender que codigo PHP foi feito para rodar no servidor
@@ -20,7 +26,7 @@ E-mail: aderitocamurima@gamil.com
 
 ## Utilizacao
 Para usar este pacote basta seguir o exemplo abaixo:
-``` php
+```php
 
 Envie parametros atraves de um formulario para o arquivo c2b.php
 O arquivo c2b esta a espera de dois(2) parametros dp tipo POST
